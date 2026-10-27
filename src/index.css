@@ -1,0 +1,33 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.navigation a{
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    /* top right bot left */
+    padding: 10px 15px 12px 13px;
+    color: white;
+    font-weight: bold;
+    border-radius:1cap
+}
+.navigation a:hover {
+    background-color: #567DC8;
+}
+.mainPage {
+    display: flex;
+    min-height: 200vh; 
+}
+.nav {
+    background-color: #0B081B;
+    width: 20%;
+       
+}
+.main {
+    color: white;
+    background-color: black;
+    width: 80%;
+}
