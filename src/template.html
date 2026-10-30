@@ -8,19 +8,27 @@
   <body>
     <main>
         <div class="mainPage">
-            <div class="nav">
-              <nav class="navigation">
-                <a href="#">Home</a>
-                <a href="#">Inbox</a>
-                <a href="#">Today</a>
-                <a href="#">Upcoming</a>
-                <a href="#">More</a>
-              </nav>
+            
+            <div class="cmain">
+              <h1>Default</h1>
+              <button class="open-form">Add Task</button>
+
+              <div class="form-popup" id="myForm">
+                <form action="/action_page.php" clas=""form-container>
+                <h1>Task</h1>
+
+                <label for="task">Task</label>
+                <input type="text" placeholder="Enter Task" name="task" required>
+
+                <label for="priority">Priority</label>
+                <input type="number" placeholder="1-5" name="priority" required>
+
+                <button type="submit" class="btn">Submit</button>
+                <button type="button" class="btn cancel">Close</button>
+                </form>
+              </div>
             </div>
-            <div class="main">
-              <h1>Inbox</h1>
-              <button>Add Task</button>
-            </div>
+            
         </div>
         
     </main>
