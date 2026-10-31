@@ -66,3 +66,14 @@
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+.todoTaskOb:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+.done {
+  background-color: green;
+}
+.done:hover {
+  background-color: darkgreen;
+}
